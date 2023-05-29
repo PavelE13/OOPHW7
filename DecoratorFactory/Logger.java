@@ -1,6 +1,6 @@
 package DecoratorFactory;
 
-public class ConsoleLogger implements iLoggable {
+public class Logger implements iLoggable {
     @Override
     public void log(String message) {
         System.out.println("LOG:" + message);

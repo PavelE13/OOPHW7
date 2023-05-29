@@ -1,10 +1,10 @@
 package DecoratorFactory;
 
-public class LogCalculator implements iCalculable {
+public class DecLogCalculator implements iCalculable {
     private iCalculable decorated;
     private iLoggable logger;
 
-    public LogCalculator(iCalculable decorated, iLoggable logger){
+    public DecLogCalculator(iCalculable decorated, iLoggable logger){
         this.decorated = decorated;
         this.logger = logger;
     }
